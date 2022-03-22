@@ -1,0 +1,81 @@
+body{
+	background: url("../images/hinh-nen-den-15-1024x640.jpg");
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#HomeCover{
+	margin: 0px auto;
+	align-content: center;
+	justify-content: center;
+	display: flex;
+}
+.cover{
+	align-content: center;
+	justify-content: center;
+	display: block;
+	width: 100%;
+  	max-width: 1000px;
+  	padding: 0px;
+  	margin-top: 15%;
+}
+.cover h1{
+	width: auto;
+	margin: 0px auto;
+	align-content: center;
+	text-align: center;
+	justify-content: center;
+
+}
+.cover p{
+	width: 750Px;
+	margin: 0px auto;
+	align-content: center;
+	text-align: center;
+	justify-content: center;
+
+}
+.cover .bt-sigin{
+	display: block;
+	margin: 0px auto;
+	align-content: center;
+	text-align: center;
+}
+.sigin{
+	width: 320Px;
+	height: auto;
+	border: 1px solid #EBDB7B;
+	border-radius: 5px;
+	background: #F6F6F6;
+	display: none;
+	margin-top: 10%;
+}
+.sigin img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.sigin main form{
+	margin: 20Px;
+}
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+label{display:inline-block}
+@media (min-width: 768px) {
+	.bd-placeholder-img-lg {
+	  font-size: 3.5rem;
+	}
+}
